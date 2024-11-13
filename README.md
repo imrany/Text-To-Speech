@@ -1,3 +1,4 @@
+#### Testing 
 ```bash
 tts --text "Hello Stackies and welcome to Getting Started with Speech Synthesis Campaign" --model_name tts_models/en/ek1/tacotron2 --out_path output/output.wav
 ```
@@ -19,4 +20,9 @@ Here’s a breakdown of the directory structure for the project:
 - languages.py- The script for fetching available languages in a selected TTS model.
 - tts-script.py - The main file where you will create the TTS script for speech synthesis.'
 - requirements.txt - This contains the dependencies needed to run the scripts.
-- tts-app.py - The main file where you will create the TTS app with a Gradio Interface.  
+- tts-app.py - The main file where you will create the TTS app with a Gradio Interface.
+
+#### Running
+```bash
+python tts-app.py
+```
